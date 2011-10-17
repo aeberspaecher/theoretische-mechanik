@@ -94,9 +94,11 @@ def Achanged(value):
 
 def setMPLoptions():
     """Ein paar Matplotlib-Optionen für hübschere Darstellung setzen.
-
-    Benötigt eine LaTeX-Installation.
     """
+
+    # Benötigt eine LaTeX-Installation. Falls eine solche nicht vorhanden ist,
+    # einfach probieren, ob das Programm auch ohne den Aufrug dieser Funktion
+    # funktioniert.
     
     plt.rcParams["font.family"] = "serif"
     plt.rcParams["text.usetex"] = True # LaTeX für Achsenbeschriftung etc benutzen
@@ -109,12 +111,11 @@ def setMPLoptions():
     plt.rcParams["axes.titlesize"] = 18 # fontsize of the axes title
     plt.rcParams["axes.labelsize"] = 18 # fontsize of the x any y labels
     plt.rcParams["axes.linewidth"] = 2
-    # Achtung: nur Längen, nicht Dicken!
     plt.rcParams["xtick.major.size"] = 5   # major tick size in points
     plt.rcParams["xtick.minor.size"] = 2.5   # minor tick size in points
     plt.rcParams["ytick.major.size"] = 5   # major tick size in points
     plt.rcParams["ytick.minor.size"] = 2.5   # minor tick size in points
-    plt.rcParams["lines.markeredgewidth"] = 1.5 # tick width, TODO: find out if this affect other things as well?
+    plt.rcParams["lines.markeredgewidth"] = 1.5 # tick width
     plt.rcParams["lines.linewidth"] = 2.0
 
 #-----------------------------------------------------------------------
