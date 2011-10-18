@@ -91,6 +91,7 @@ def Achanged(value):
     ax2.set_xlabel(r"Winkel $\varphi$"); ax2.set_ylabel(r"Frequenz $\omega$")
     ax1.plot(np.linspace(tInit, tFinal, numSteps), values[0]) # plotte phi(t)
     ax2.plot(values[0], values[1]) # plotte w(phi)
+    plt.draw() # neu zeichnen
 
 def setMPLoptions():
     """Ein paar Matplotlib-Optionen für hübschere Darstellung setzen.
