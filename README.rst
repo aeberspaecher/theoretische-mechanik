@@ -20,8 +20,3 @@ dritte Aufgabe ("ein erster Kontakt mit dem Chaos"). Benötigt dafür: Python,
 NumPy, SciPy, matplotlib. Linux-Nutzer wissen wahrscheinlich, wie sie die
 benötigte Software installieren können, Windows-Nutzer besuchen bitte
 http://www.lfd.uci.edu/~gohlke/pythonlibs/
-
-Es kann sein, dass ein einfacher Klick in den Schieberegler für die
-Parametervariation nicht ausreicht, um einen neuen Wert zu setzen.
-Sachdienliche Hinweise zur Aufklärung dieses unerwünschten Verhaltens bitte
-an Alexander Eberspächer!
